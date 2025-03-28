@@ -38,12 +38,12 @@ img{
 
 .hero {
     padding: 50px;
-    background: #FB5FFC;
+    background: antiquewhite;
     color: #0165FC;
 }
 
 .hero p{
-    font-family: 'Arial', sans-serif;
+    font-family: 'DM Serif Text', sans-serif;
 }
 
 .hero .btn {
@@ -85,7 +85,7 @@ img{
 }
 
 .project-card p{
-    font-family: 'Arial', sans-serif;
+    font-family: 'DM Serif Text', sans-serif;
 }
 
 .project-card:hover {
