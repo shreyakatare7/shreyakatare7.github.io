@@ -42,12 +42,16 @@ img{
     color: #0165FC;
 }
 
+.hero p{
+    font-family: 'Arial', sans-serif;
+}
+
 .hero .btn {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
     background: #658B38;
-    color: white;
+    color: antiquewhite;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -62,9 +66,9 @@ img{
 }
 
 .project-card {
-    background: #FFB2D0;
+    background: #FF6347;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
     padding: 15px;
     width: 300px;
     text-align: center;
@@ -75,8 +79,12 @@ img{
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
     font-weight: bold;
+}
+
+.project-card p{
+    font-family: 'Arial', sans-serif;
 }
 
 .project-card:hover {
@@ -88,4 +96,5 @@ footer {
     color: black;
     padding: 10px;
     margin-top: 20px;
+    flex-wrap: nowrap;
 }
