@@ -1,15 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Sigmar One', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #FFB2D0;
 }
 
 header{
-    background: #333;
+    background: #FFB2D0;
     padding: 15px 0;
-    color: white;
+    color: black;
 }
 
 nav{
@@ -20,11 +20,6 @@ nav{
     padding: 0 20px;
 }
 
-.logo{
-    font-size: 24px;
-    font-weight: bold;
-}
-
 .nav-links{
     list-style: none;
     display: flex;
@@ -33,29 +28,28 @@ nav{
 
 .nav-links a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: black;
 }
 
 .hero {
     padding: 50px;
-    background: #0073e6;
-    color: white;
+    background: #FFB2D0;
+    color: #0165FC;
 }
 
 .hero .btn {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
-    background: white;
-    color: #0073e6;
+    background: #658B38;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
 }
 
 .project-card {
-    background: white;
+    background: #FFB2D0;
     padding: 15px;
     margin: 10px;
     display: inline-block;
@@ -64,8 +58,8 @@ nav{
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: #FDEE73;
+    color: black;
     padding: 10px;
     margin-top: 20px;
 }
