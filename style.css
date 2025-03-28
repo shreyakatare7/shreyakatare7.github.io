@@ -100,11 +100,11 @@ img{
 }
 
 .profile-image {
-    width: 150px; 
-    height: 150px;
+    width: 250px; 
+    height: 250px;
     border-radius: 50%; 
     object-fit: cover;
-    border: 3px solid #333; 
+    border: 3px solid black; 
 }
 
 .about-section {
@@ -117,11 +117,66 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #B1F4E7;
 }
 
 .about-description {
     max-width: 600px; 
     margin-top: 20px;
+    font-family: 'DM Serif Text', sans-serif;
+}
+
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FF6347;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #B1F4E7;
+    border-radius: 5px;
+}
+
+.form-field textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #B1F4E7;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9EF3F3;
 }
 
 footer {
