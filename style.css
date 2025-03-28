@@ -31,6 +31,11 @@ nav{
     color: black;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 .hero {
     padding: 50px;
     background: #FFB2D0;
@@ -48,13 +53,34 @@ nav{
     border-radius: 5px;
 }
 
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
 .project-card {
     background: #FFB2D0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 15px;
-    margin: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card a {
     display: inline-block;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
 }
 
 footer {
