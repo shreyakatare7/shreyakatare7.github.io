@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+        // Function to generate random number between min and max
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    
+        // Create multiple sparkle elements and append them to the body
+        function createSparkles() {
+            for (let i = 0; i < 20; i++) {  // Change number for more/less sparkles
+                const sparkle = document.createElement('div');
+                sparkle.classList.add('sparkle');
+                sparkle.style.top = getRandomInt(0, window.innerHeight) + 'px';
+                sparkle.style.left = getRandomInt(0, window.innerWidth) + 'px';
+                sparkle.style.animationDuration = getRandomInt(3, 6) + 's';  // Randomize animation speed
+                document.body.appendChild(sparkle);
+            }
+        }
+    
+        // Call the function to create sparkles when the page loads
+        window.onload = createSparkles;
+    </script>    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

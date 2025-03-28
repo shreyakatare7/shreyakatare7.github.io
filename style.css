@@ -181,6 +181,42 @@ button:hover {
     background-color: #9EF3F3;
 }
 
+.sparkle {
+    position: absolute;
+    z-index: -1; 
+    width: 20px; 
+    height: 20px; 
+    background-image: url('Screenshot 2025-03-28 185008.png'); 
+    background-size: contain; 
+    animation: sparkleAnimation 5s infinite;
+}
+
+@keyframes sparkleAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(0) translateY(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(50px) translateY(50px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-50px) translateY(-50px);
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        position: relative;
+    }
+    .sparkle {
+        top: randomPositionY();
+        left: randomPositionX();
+        animation-delay: randomDelay();
+    }
+}
+
 footer {
     background: #FDEE73;
     color: black;
